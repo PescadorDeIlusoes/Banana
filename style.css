@@ -1,15 +1,9 @@
 body{
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,9,121,1) 35%, rgba(9,26,115,1) 50%, rgba(0,212,255,1) 100%);
+  background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 22%, rgba(0,212,255,1) 100%);
 }
 
-h1{border-block:unset ;
-    width: 170px; ;
-    padding:30px;
-    margin: 10px;
-    border:10px solid;
-    border-style:ridge;
-
+h1{
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     color: aliceblue;}
@@ -17,8 +11,8 @@ p{color: aliceblue;}
 img{
     border-radius: 8px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 80%;
+    ;
 }
 .container {
     position: relative;
@@ -34,13 +28,14 @@ img{
   .overlay {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 79%;
     right: 0;
     background-color: #008CBA;
     overflow: hidden;
-    width: 100%;
+    width: 32%;
     height: 0;
     transition: .5s ease;
+    border-radius: 8px;
   }
   
   .container:hover .overlay {
@@ -58,7 +53,16 @@ img{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
-
+.center { margin: auto;
+  width: 25%;
+  border: 5px solid #ffff;
+  padding: 10px;
+border-style:groove;}
+h2{font-family: 'Times New Roman', Times, serif;
+color:aliceblue;
+border-bottom:2px solid aliceblue;
+}
+h3{border-bottom: 2px solid aliceblue;}
 
 
 
