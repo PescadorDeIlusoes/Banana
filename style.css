@@ -53,19 +53,23 @@ img{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
-.center { margin: auto;
+.center { margin: left;
   width: 25%;
   border: 5px solid #ffff;
   padding: 10px;
-border-style:groove;}
+border-style:groove;
+border-bottom: 0ch;}
 h2{font-family: 'Times New Roman', Times, serif;
 color:aliceblue;
-border-bottom:2px solid aliceblue;
+
 }
 h3{border-bottom: 2px solid aliceblue;}
 
-
-
+.cabeça { margin: auto;
+  border: 5px solid #ffff;
+  padding: 10px;
+border-style: groove;}
+.linha{border-bottom:2px solid aliceblue}
 
 
 
