@@ -20,3 +20,8 @@ body{
   border: 5px solid #ffff;
   padding: 10px;
 border-style: groove;}
+.command{border-radius: 8px;
+    display: block;
+    width: 25%;}
+    h3{font-family: 'Times New Roman', Times, serif;
+        color:aliceblue;}
